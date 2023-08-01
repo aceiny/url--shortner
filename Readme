@@ -1,0 +1,1 @@
+This is my first full stack project that shortens urls and store the url by giving it a special id that refers to the path for rederctin to the original url , if you wish to use it just deploy the backend and change the api in the front end in both main and redirect folder , ps : i left my db connection info in the folder .env 
