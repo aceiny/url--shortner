@@ -9,8 +9,8 @@ function App() {
     <>
       <BrowserRouter>
         <Routes>
-          <Route path="/" element={<Main />} />
           <Route path="/:id" element={<Redirect />} />
+          <Route path="/" element={<Main />} />
         </Routes>
       </BrowserRouter>
     </>
