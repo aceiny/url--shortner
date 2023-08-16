@@ -4,7 +4,7 @@ import { useNavigate, useParams } from "react-router-dom";
 
 const Redirect = () => {
   const [uurl, setUurl] = useState(null);
-  const api = 'http://localhost:8080/api/v1/urls' //api for gettin data from api 
+  const api = 'https://url-shortner-0851.onrender.com/api/v1/urls' //api for gettin data from api 
   const navigate = useNavigate();
   const { id } = useParams();
   const geturl = async () => {
