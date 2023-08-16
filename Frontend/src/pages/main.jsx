@@ -3,7 +3,7 @@ import { ToastContainer, toast } from 'react-toastify';
 import NavBar from "../comps/navbar";
 import axios from "axios";
 const Main = () =>  {
-    const api = 'http://localhost:8080/api/v1/urls' // api for postin data to db
+    const api = 'https://url-shortner-0851.onrender.com/api/v1/urls' // api for postin data to db
     const [urll,setUrl] = useState('')
     const [urlb ,setUrlb] = useState(false)
     let url = useRef()
